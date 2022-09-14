@@ -14,29 +14,42 @@
     font-style:normal;
 }
 
+.container{
+    box-shadow: 0 0 10px 4px #555;
+    padding: 5rem;
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
 label{
     display: block;
     font-size: 1.7rem;
     margin: 1rem;
+    font-weight: 600;
 }
 body{
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color: aliceblue;
+    color: #252525;
 }
 input{
     font-size: 1.1rem;
     height: 2.5rem;
     border: 3px solid gray;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 0 1rem;
     width: 20rem;
     outline: none;
     position: relative;
     font-family:dotsfont;
     -webkit-text-security:disc;
-    
+    background-color: inherit;
+    text-indent: 1rem;
 }
 #sub{
     font-size: 1.2rem;
@@ -45,11 +58,12 @@ input{
     transform: translate(-50%);
     margin-top: 1rem;
     padding: 0.4rem 4rem;
-    background-color: rgb(30, 97, 30);
+    background-color: rgb(8, 63, 8);
     box-shadow: 0 0 5px 2px gray ;
     border: none;
     color: white;
     border-radius: 15px;
+    cursor: pointer;
 }
 #show{
     position: absolute;
@@ -58,6 +72,7 @@ input{
     border: none;
     background-color: transparent;
     cursor: pointer;
+    color: gray;
 }
 .showIt{
     font-family: sans-serif;
