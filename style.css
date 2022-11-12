@@ -46,10 +46,12 @@ input{
     width: 20rem;
     outline: none;
     position: relative;
-    font-family:dotsfont;
-    -webkit-text-security:disc;
     background-color: inherit;
     text-indent: 1rem;
+}
+.pass{
+    font-family:dotsfont;
+    -webkit-text-security:disc;
 }
 #sub{
     font-size: 1.2rem;
